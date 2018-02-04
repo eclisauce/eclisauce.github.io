@@ -134,7 +134,7 @@ section.join .line {
 .footer {
   padding: 40px;
   background-color: #25272c;
-  background-image: linear-gradient(45deg, rgba(101, 128, 233, 0.66) 0%, #1e3fb6 100%);
+  background-image: linear-gradient(45deg, rgba(58, 60, 66, 0.73) 10%, #1e6db6 100%);
   line-height: 24px;
   font-size: 20px;
   color: white;
