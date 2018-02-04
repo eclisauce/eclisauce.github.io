@@ -1,7 +1,9 @@
+body, html {
+    height: 100%;
+}
+
 body {
   background-size: cover;
-  background-image: url("imgs/bfa-1.jpg");
-  background-repeat: no-repeat, repeat;
   background-position: center center;
   position: relative;
   font-family: "Lato", sans-serif;
@@ -37,7 +39,7 @@ body:before {
   left: 0;
   width: 100%;
   height: 550px;
-  background-image: linear-gradient(45deg, rgba(101, 128, 233, 0.73) 0%, #1e6db6 100%);
+  background-image: linear-gradient(45deg, rgba(58, 60, 66, 0.73) 10%, #1e6db6 100%);
 }
 
 .topmenu {
@@ -66,18 +68,24 @@ body:before {
 }
 
 .inner {
-  padding: 40px;
+  padding: 10px;
 }
 
-section .image {
-  width: 300px;
-  min-height: 480px;
-  margin: 40px;
-  background-position: center center;
-  background-size: cover;
+#aboutList{
+  list-style: none;
+  padding-right: 0;
 }
+
+.carousel{
+  width: 100%;
+}
+
+#about{
+
+}
+
 section .text {
-  padding: 40px;
+  padding: 10px;
   max-width: 700px;
 }
 section .text p {
@@ -92,7 +100,7 @@ section .text p b {
 section .text ul {
   color: white;
   margin: 0;
-  padding: 0 0 0 20px;
+  padding: 0;
 }
 section .text ul li {
   font-size: 18px;
