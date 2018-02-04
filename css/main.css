@@ -76,12 +76,9 @@ body:before {
   padding-right: 0;
 }
 
-.carousel{
-  width: 100%;
-}
-
-#about{
-
+#footerList{
+  list-style: none;
+  padding-right: 0;
 }
 
 section .text {
